@@ -1,0 +1,55 @@
+
+.fontColorRed {
+    color: rgb(0, 0, 0)
+}
+
+.fontSize {
+    font-size: 24px;
+}
+
+
+.backgroundcolorRed {
+    background-color: rgba(21, 0, 255, 0.465)
+}
+    
+
+
+.tables {
+    border: 1px solid;
+}
+
+
+
+
+.Icon {position: static;
+    border: 3px solid #000000;
+
+}
+
+
+div {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.fontweb {
+    font-family: verdana;
+  font-size: 20px;
+}
+
+
+
+.logo {
+    width: 200px;
+}
+
+
+
+
+.centrer {
+    line-height: 1.5;
+    text-align: center;
+    margin:0 auto;
+}
+

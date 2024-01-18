@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+  <div class="w3-show-inline-block">
+    <div class="w3-bar w3-light-grey">
+      <a href="#" class="w3-bar-item w3-button w3-black">Home</a>
+      <a href="#" class="w3-bar-item w3-button">Link 1</a>
+      <a href="#" class="w3-bar-item w3-button">Link 2</a>
+      <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+    </div>
+
+
+    <table>
+      <table>
+        <title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2>W3.CSS Animated Modal</h2>
+  <p>Zoom in the modal with the w3-animate-zoom class, or slide in the modal from a specific direction using the w3-animate-top, w3-animate-bottom, w3-animate-left or w3-animate-right class:</p>
+  <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Animated Modal</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p></p>
+        <p>Some text..</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+  </div>
+</div>
+          
+      </table>
+      
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+
+
+
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " w3-red";
+    }
+  </script>
+
+</body>
+
+
+
+
+
+<h1 class="w3-center w3-text-black w3-blue"> Rapport de stage de luciano </h1>
+<div>
+  <title>W3.CSS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+  </style>
+  <body>
+  
+  <div class="w3-container">
+    <h2>AMX1:Conçu pour les professionnels de la gestion d'actifs.</h2>
+    <p>AMX1 est une solution simple à utiliser qui répond à tous vos besoins
+      quel que soit votre taille et votre type de gestion.</p>
+  </div>
+  
+  <div class="w3-content w3-section" style="max-width:200px">
+    <img class="mySlides w3-animate-top" src="AMX1.png" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="amx1 (6).jpg" style="width:100%">
+    <img class="mySlides w3-animate-top" src="amx1 (3).jpg" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="amx1 (4).jpg" style="width:100%">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500);    
+  }
+  </script>
+
+  
+</div>
+<table>
+  <title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+  <h2></h2>
+  <p>Employer de amx1:</p>
+  <ul class="w3-ul w3-card-4">
+    <li class="w3-bar">
+      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+      <img src="images (2) jpg.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">François Autheman</span><br>
+        <span>Developpeur.</span>
+      </div>
+    </li>
+
+    <li class="w3-bar">
+      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+      <img src="images.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">Romain</span><br>
+        <span> responsable technique</span>
+      </div>
+    </li>
+
+    <li class="w3-bar">
+      <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-white w3-xlarge w3-right">×</span>
+      <img src="téléchargement.png fille.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">Marie-charlotte bordeaux</span><br>
+        <span>developpeur concepteur d'application.</span>
+      </div>
+    </li>
+  </ul>
+</div>
+
+</table>
+
+
+
+
+<div class="w3-container" style="height: 10000px;">
+  
+
+  <div class="w3-bar w3-blue">
+    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'Francois')">Francois</button>
+    <button class="w3-bar-item w3-button tablink " onclick="openCity(event,'Romain')">Romain</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Marie-Charlotte')">Marie-Charlotte</button>
+  </div>
+
+  <div id="Francois" class="w3-container w3-border city">
+    <table class="w3-table-all w3-striped w3-margin w3-padding w3-border">
+      <tr>
+        <td>Nom et prénom de la
+          personne
+        </td>
+        <td>
+          François AUTHEMAN
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Fonction dans l’entreprise
+        </td>
+        <td>
+          Il gere toute ce qui est l'equipe produit , et l'équipe d'eveloppement et developeur
+c'est a dire chef technique et de produit et developpeur.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Intitulé du métier présenté
+        </td>
+        <td>
+          responsable technique et produit.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Depuis combien detemps exercez-vous ce métier ?
+        </td>
+        <td>
+          Depuis 13ans.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Quelle formation avez-vous faite pour exercer ce métier ?
+        </td>
+        <td>
+          Dut genie logiciel,et une ecole ingenieure a system enbarquer.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          En quoi consiste votre métier ?
+        </td>
+        <td>
+          Mon metier consiste a developper le produit et aussi faire le lien entre la time dev et produit.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Avec quels autres metiers êtes-vous en relation ? Pour quels types d’échanges ?
+        </td>
+        <td>
+          Je suis en relation avec des membre de l'equipe produit.il sont en charge d'imaginer et de reflechire sur les evolution produit et les amelioration produit il sont aussi charger du service après vente.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ce qui vous plait dansce métier ?
+        </td>
+        <td>
+          Ce qu'il me plait dans ce metier c'est que tu peut developper et une idée assez rapide de ce que tu fait.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ce qui est difficile dans ce métier ?
+        </td>
+        <td>
+          Ce qui est difficile dans ce metier c'est que sa s'arrete jamais , il y a des difficulter physique , faut comprendre les demande client et produit , ce metier la tu peut le faire dans different domaine.
+        </td>
+      </tr>
+
+
+        
+      
+    </table>
+    
+
+    
+  </div>
+
+  <div id="Romain" class="w3-container w3-border city" style="display:none">
+    <table class="w3-table-all w3-striped w3-margin w3-padding w3-border">
+      <tr>
+        <td>Nom et prénom de la
+          personne
+        </td>
+        <td>
+          Romain Lacube
+        </td>
+       <tr>
+       </tr>
+         <td>
+          Fonction dans l’entreprise
+       </td>
+       <td>
+        organiser les developpement logiciel dans l'equipe technique.
+       </td>
+       <tr>
+        <td>
+          Intitulé du métier présenté.
+        </td>
+        <td>
+          responsable technique.
+        </td>
+       </tr>
+       <tr>
+        <td>
+          Depuis combien de temps exercez-vous ce métier ?
+        </td>
+        <td>
+          Sa fait 8ans.
+        </td>
+       </tr>
+       <tr>
+        <td>
+          Quelle formation avez-vous faite pour exercer ce métier ?
+        </td>
+        <td>
+          Formation d'ingenieur developpement d'inteligence artificiel.
+        </td>
+       </tr>
+       <tr>
+        <td>
+          En quoi consiste votre métier ?
+        </td>
+        <td>
+          Il y a  plusieur chose 1 chose developper les besoin defini par l'equipe produit. apporter des inovation technique , essayer de repartire les developpement dans l'entreprise.
+        </td>
+       </tr>
+       <tr>
+        <td>
+          Avec quels autres métiers êtes-vous en relation ? Pour quels types d’échanges ?
+        </td>
+        <td>
+          En relation avec l'equipe cibert securiter et gestion serveur.
+        </td>
+       </tr>
+       <tr>
+        <td>
+          Ce qui vous plait dans ce métier ?
+        </td>
+        <td>
+          L'asper technique , l'asper spontaneiter du developpement (tu developpe et tu teste s'en qu'il y est de l'attente) et l'aspet evolution produit (disainer le produit).
+        </td>
+       </tr>
+       <tr>
+        <td>
+          Ce qui est difficile dans ce métier ?
+        </td>
+        <td>
+          C'est dur de gere la pression des equipe produit.
+        </td>
+       </tr>
+    </table>
+  </div>
+
+  <div id="Marie-Charlotte" class="w3-container w3-border city" style="display:none">
+    <table class="w3-table-all w3-striped w3-margin w3-padding w3-border"></tableclass>
+      <tr>
+        <td>Nom et prénom de la
+          personne
+        </td>
+        <td>
+          Marie-Charlotte
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Fonction dans l’entreprise
+        </td>
+        <td>
+          etudiante en reconversion professionnel pour devenir devleoppeuse application.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Intitulé du métier présenté.
+        </td>
+        <td>
+          devellopeur concpteur d'application.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Depuis combien de temps exercez-vous ce métier ?
+        </td>
+        <td>
+          Depuis le mois de mars.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Quelle formation avez-vous faite pour exercer ce métier ?
+        </td>
+        <td>
+          Une ecole de reconversion professionnel sur 1ans.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          En quoi consiste votre métier ?
+        </td>
+        <td>
+          Gestion de l'aspet front-end de l'application.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Avec quels autres métiers êtes-vous en relation ? Pour quels types d’échanges ?
+        </td>
+        <td>
+          Avec la team prod et la team dev pour concevoir l'application.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ce qui vous plait dans ce métier ? 
+        </td>
+        <td>
+          L'approche de l'informatique dasn le d'eveloppement pour voir ce qu'il y a derire les logiciel , la creation de contenu informatique.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ce qui est difficile dans ce métier ?
+        </td>
+        <td>
+          Surtout comprendre ce que veut le client et la realisation de l'application.
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+</body>
+
+</html>
