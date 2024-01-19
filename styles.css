@@ -1,55 +1,80 @@
-
 .fontColorRed {
-    color: rgb(0, 0, 0)
+  color: rgb(0, 0, 0);
 }
 
 .fontSize {
-    font-size: 24px;
+  font-size: 24px;
 }
-
 
 .backgroundcolorRed {
-    background-color: rgba(21, 0, 255, 0.465)
+  background-color: rgba(21, 0, 255, 0.465);
 }
-    
-
 
 .tables {
-    border: 1px solid;
+  border: 1px solid;
 }
 
-
-
-
-.Icon {position: static;
-    border: 3px solid #000000;
-
+.Icon {
+  position: static;
+  border: 3px solid #000000;
 }
-
 
 div {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 .fontweb {
-    font-family: verdana;
+  font-family: verdana;
   font-size: 20px;
 }
 
-
-
 .logo {
-    width: 200px;
+  width: 200px;
 }
-
-
-
 
 .centrer {
-    line-height: 1.5;
-    text-align: center;
-    margin:0 auto;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
 }
 
+containerSnake {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(20, 20px);
+}
+
+.snake-node {
+  width: 20px;
+  height: 20px;
+  background-color: #4caf50;
+  border: 1px solid #fff;
+}
+
+.food {
+  width: 20px;
+  height: 20px;
+  background-color: #ff5733;
+  border: 1px solid #fff;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 20px;
+}
